@@ -27,5 +27,6 @@ In progress.
 TechFlow/
 ├── index.html
 ├── style.css
-└── README.md
+├── README.md
+└── .gitignore
 ```
