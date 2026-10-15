@@ -9,7 +9,7 @@
 <body>
     <!--Page content goes here-->
 
-    
+    <!-- Header Section -->
     <header id="home">
         <nav class="navbar container">
             <a class="logo" href="#home">TechFlow</a>
@@ -22,10 +22,11 @@
         </nav>
     </header>
 
-    <main>
-        <h1 class="intro">Welcome to TechFlow</h1>
-        <p class = "intro">IT solution provider for modern businesses.</p>
+    <main class="container">
+        <h1 class="intro-title">Welcome to TechFlow</h1>
+        <p class ="intro">IT solution provider for modern businesses.</p>
 
+        <!-- Hero Section -->
         <section class="hero">
             <h2>Technology that moves your business forward.</h2>
             <p>We build modern digital solutions that help businesses work smarter, grow faster and stay secure.</p>
@@ -56,11 +57,44 @@
 
             </div>
 
+        
+        <!-- Contact Section -->
         <section id="contact" class="contact">
             <h2>Contact Us</h2>
             <p>Ready to move your business forward? Let's talk.</p>
-            <a href="mailto:hello@techflow.example">Email Us</a>
+
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                >
+
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="How can we help you?"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
         </section>
+
     </main>
 
     
